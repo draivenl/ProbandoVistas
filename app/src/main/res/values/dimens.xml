@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="border_button_radius">10dp</dimen>
+    <dimen name="border_button_stroke_width">10px</dimen>
+    <dimen name="activity_marginTop">15dp</dimen>
+    <dimen name="activity_spinner_marginTop">15dp</dimen>
+    <dimen name="activity_marginLeft">10dp</dimen>
+    <dimen name="activity_marginRight">10dp</dimen>
+    <dimen name="activity_marginStart">10dp</dimen>
+    <dimen name="activity_marginBottom">10dp</dimen>
+    <dimen name="marginTopLinearLayoutSync">5dp</dimen>
+    <dimen name="marginTopLinearLayoutNotifications">5dp</dimen>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.com.etn.myapplicationvistas.Main2Activity"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/activity_marginLeft"
+    android:layout_marginRight="@dimen/activity_marginRight"
+    android:layout_marginBottom="@dimen/activity_marginBottom"
+    android:layout_marginStart="@dimen/activity_marginStart"
+    android:layout_marginTop="@dimen/activity_marginTop"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="0.5"
+
+        >
+
+
+        <TextView
+            android:id="@+id/txtActivity_main2_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_v1_relative"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+
+            />
+        <EditText
+            android:id="@+id/edtRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_relative1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/txtActivity_main2_relative"
+
+            />
+
+        <TextView
+            android:id="@+id/txtWithImgRelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_email_black_24dp"
+            android:layout_below="@+id/edtRelative"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textStyle="bold|italic"
+            android:text="@string/txtEmailRelative"
+
+
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtWithImgRelative"
+            android:layout_alignParentEnd="true"
+
+            />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/txtActivity_main2_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_v1_relative"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+
+            />
+        <EditText
+            android:id="@+id/edtLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_relative1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:inputType="textPersonName"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/txtWithImgLinear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_email_black_24dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textStyle="bold|italic"
+                android:text="@string/txtEmailRelative"
+
+
+
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.68"
+
+                />
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
